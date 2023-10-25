@@ -24,7 +24,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> Javascript, Java and Python. </b>
+                <b className="purple"> JavaScript, Java and Python. </b>
               </i>
               <br />
               <br />
@@ -43,7 +43,7 @@ function Home2() {
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  Modern JavaScript Library and Frameworks
                 </b>
               </i>
               &nbsp; like
