@@ -3,7 +3,7 @@
   <a href="https://soykevin.ar/" target="_blank">soykevin.ar</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./Portfolio-master/Images/readme-imagen.jpg" />
+  <img alt="Demo" src="./Portfolio-master/Images/readme-img1.png" />
 </div>
 
 <br/>
