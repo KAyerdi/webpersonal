@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-import pdf from "../Assets/CV-Kevin.pdf"; // https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:c2d3fea4-18d7-46fd-96e4-d6ebf241eb57
+import pdf from "../Assets/CV-Kevin.pdf"; // https://acrobat.adobe.com/id/urn:aaid:sc:US:d055343f-9ec2-4966-b44a-304ae6ed04b0
 import Particle from "../Particle";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
