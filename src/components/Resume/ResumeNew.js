@@ -27,7 +27,7 @@ function ResumeNew() {
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
-            &nbsp;Download CV
+            &nbsp;See CV
           </Button>
         </Row>
 
@@ -40,7 +40,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href="https://cv-three-chi.vercel.app/"
+            href="https://cv-three-chi.vercel.app/" download="nombre-del-archivo.pdf"
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
