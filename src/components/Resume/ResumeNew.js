@@ -22,7 +22,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href={pdf}
+            href="https://cv-three-chi.vercel.app/"
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
@@ -40,7 +40,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href={pdf}
+            href="https://cv-three-chi.vercel.app/"
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
