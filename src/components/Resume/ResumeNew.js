@@ -32,6 +32,11 @@ function ResumeNew() {
         </Row>
 
         <Row className="resume">
+        <img
+            src="../../Assets/../Assets/CV-Kevin.png"
+            alt="CV"
+            style={{ maxWidth: "100%" }}
+          />
           <Document file={pdf} className="d-flex justify-content-center">
             <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
           </Document>
