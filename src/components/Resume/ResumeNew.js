@@ -6,6 +6,8 @@ import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import pdf from "../../Assets/../Assets/CV-Kevin.pdf"; //https://acrobat.adobe.com/id/urn:aaid:sc:US:d055343f-9ec2-4966-b44a-304ae6ed04b0
 import Particle from "../Particle";
+import cvImage from "../../Assets/../Assets/CV-Kevin.png";
+
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 function ResumeNew() {
@@ -32,20 +34,17 @@ function ResumeNew() {
         </Row>
 
         <Row className="resume">
-        <img
-            src="../../Assets/../Assets/CV-Kevin.png"
-            alt="CV"
-            style={{ maxWidth: "100%" }}
-          />
           <Document file={pdf} className="d-flex justify-content-center">
             <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
+            <img src={cvImage} alt="CV" style={{ maxWidth: "100%" }} />
           </Document>
         </Row>
 
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href="https://cv-three-chi.vercel.app/" download="nombre-del-archivo.pdf"
+            href="https://cv-three-chi.vercel.app/"
+            download="CV-Kevin.pdf"
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
