@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-//import pdf from "../../Assets/../Assets/CV-Kevin.pdf"; //https://acrobat.adobe.com/id/urn:aaid:sc:US:d055343f-9ec2-4966-b44a-304ae6ed04b0
+import pdf from "../../Assets/../Assets/CV-Kevin.pdf"; //https://acrobat.adobe.com/id/urn:aaid:sc:US:d055343f-9ec2-4966-b44a-304ae6ed04b0
 import cvImage from "../../Assets/../Assets/CV-Kevin.png";
 import Particle from "../Particle";
 
@@ -33,7 +33,7 @@ function ResumeNew() {
           </Button>
         </Row>
 
-        
+
         <Row className="resume">
         <img src={cvImage} alt="CV"  className="d-flex justify-content-center" style={{ maxWidth: "100%" }} />
         </Row>
