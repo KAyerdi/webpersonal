@@ -28,7 +28,7 @@ function ResumeNew() {
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
-            <AiOutlineDownload />
+            <AiFillContacts />
             CV ON WEB
           </Button>
         </Row>
