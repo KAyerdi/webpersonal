@@ -39,9 +39,7 @@ function ResumeNew() {
             &nbsp;CV on web
           </Button>
         </Row>
-        <br>
-        <br>
-
+        <Particle />
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
