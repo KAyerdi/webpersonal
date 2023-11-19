@@ -27,7 +27,7 @@ function ResumeNew() {
         <Row className="resume">
         <img src={cvImage} alt="CV"  className="d-flex justify-content-center" style={{ maxWidth: "100%" }} />
         </Row>
-        
+
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
@@ -39,6 +39,8 @@ function ResumeNew() {
             &nbsp;CV on web
           </Button>
         </Row>
+        <br>
+        <br>
 
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
