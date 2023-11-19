@@ -21,6 +21,13 @@ function ResumeNew() {
     <div>
       <Container fluid className="resume-section">
         <Particle />
+        
+
+
+        <Row className="resume">
+        <img src={cvImage} alt="CV"  className="d-flex justify-content-center" style={{ maxWidth: "100%" }} />
+        </Row>
+        
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
@@ -32,12 +39,6 @@ function ResumeNew() {
             &nbsp;CV on web
           </Button>
         </Row>
-
-
-        <Row className="resume">
-        <img src={cvImage} alt="CV"  className="d-flex justify-content-center" style={{ maxWidth: "100%" }} />
-        </Row>
-
 
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
