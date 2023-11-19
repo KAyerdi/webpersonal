@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import { AiOutlineDownload, AiFillHtml5  } from "react-icons/ai";
+import { AiOutlineDownload, AiFillHtml5, AiOutlinePaperClip  } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import pdf from "../../Assets/../Assets/CV-Kevin.pdf"; //https://acrobat.adobe.com/id/urn:aaid:sc:US:d055343f-9ec2-4966-b44a-304ae6ed04b0
@@ -29,7 +29,8 @@ function ResumeNew() {
             style={{ maxWidth: "250px" }}
           >
             <AiFillHtml5 />
-            CV ON WEB
+            <AiOutlinePaperClip/>
+            &nbsp;CV ON WEB
           </Button>
         </Row>
 
