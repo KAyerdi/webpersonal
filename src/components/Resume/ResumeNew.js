@@ -38,6 +38,8 @@ function ResumeNew() {
             <AiOutlinePaperClip/>
             &nbsp;CV on web
           </Button>
+          <br> </br>
+          <br> </br>
         </Row>
         <Particle />
         <Row style={{ justifyContent: "center", position: "relative" }}>
