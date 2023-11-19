@@ -33,7 +33,7 @@ function ResumeNew() {
             variant="primary"
             href="https://cv-three-chi.vercel.app/"
             target="_blank"
-            style={{ maxWidth: "250px", marginRight: "10px" }}
+            style={{ maxWidth: "250px", marginBottom: "10px" }}
           >
             <AiOutlinePaperClip/>
             &nbsp;CV on web
@@ -46,7 +46,7 @@ function ResumeNew() {
             href={pdf}
             download="CV-Kevin.pdf"
             target="_blank"
-            style={{ maxWidth: "250px", marginRight: "10px" }}
+            style={{ maxWidth: "250px", marginBottom: "10px" }}
           >
             <AiOutlineDownload />
             &nbsp;Download CV
