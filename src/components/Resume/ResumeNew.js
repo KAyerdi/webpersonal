@@ -28,9 +28,8 @@ function ResumeNew() {
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
-            <AiFillHtml5 />
             <AiOutlinePaperClip/>
-            &nbsp;CV ON WEB
+            &nbsp;CV on web
           </Button>
         </Row>
 
