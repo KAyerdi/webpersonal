@@ -33,22 +33,20 @@ function ResumeNew() {
             variant="primary"
             href="https://cv-three-chi.vercel.app/"
             target="_blank"
-            style={{ maxWidth: "250px" }}
+            style={{ maxWidth: "250px", marginRight: "10px" }}
           >
             <AiOutlinePaperClip/>
             &nbsp;CV on web
           </Button>
-          <br> </br>
-          <br> </br>
         </Row>
-        <Particle />
+
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
             href={pdf}
             download="CV-Kevin.pdf"
             target="_blank"
-            style={{ maxWidth: "250px" }}
+            style={{ maxWidth: "250px", marginRight: "10px" }}
           >
             <AiOutlineDownload />
             &nbsp;Download CV
