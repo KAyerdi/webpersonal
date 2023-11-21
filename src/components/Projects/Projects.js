@@ -71,7 +71,7 @@ function Projects() {
               isBlog={false}
               title="ChatGPT Clone"
               description="This is a personal project for educational purposes, created with React and Tailwind."
-              ghLink="https://github.com/KAyerdi/Chatify"
+              ghLink="https://github.com/KAyerdi/ChatGPT-Clone.git"
             />
           </Col>
         </Row>
