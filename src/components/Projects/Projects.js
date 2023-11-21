@@ -53,7 +53,7 @@ function Projects() {
               isBlog={false}
               title="Twitter Clone"
               description="Personal project for educational purposes, created with React.js, TypeScript and some CSS. It has features that allow the user to send messages in real time, share images, and support reactions on messages."
-              ghLink="https://github.com/KAyerdi/Chatify"
+              ghLink="https://github.com/KAyerdi/Twitter-Clone.git"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -61,8 +61,8 @@ function Projects() {
               imgPath={chatify}
               isBlog={false}
               title="Minecraft Clone"
-              description="This web video game is a personal project for educational purposes, created with HTML, CSS, JavaScript and ThreeJS.."
-              ghLink="https://github.com/KAyerdi/Chatify"
+              description="This web video game is a personal project for educational purposes, created with HTML, CSS, JavaScript and ThreeJS."
+              ghLink="https://github.com/KAyerdi/Minecraft-Clone.git"
             />
           </Col>
           <Col md={4} className="project-card">
