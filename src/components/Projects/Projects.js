@@ -18,7 +18,7 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card" style={{ whiteSpace: 'pre-line' }}>
+          <Col md={4} className="project-card" >
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
@@ -29,7 +29,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card" style={{ whiteSpace: 'pre-line' }}>
+          <Col md={4} className="project-card" >
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
@@ -40,7 +40,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card" style={{ whiteSpace: 'pre-line' }}>
+          <Col md={4} className="project-card" >
             <ProjectCard
               imgPath={editor}
               isBlog={false}
@@ -59,7 +59,7 @@ function Projects() {
               ghLink="https://github.com/KAyerdi/Twitter-Clone.git"
             />
           </Col>
-          <Col md={4} className="project-card" style={{ whiteSpace: 'pre-line' }}>
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
@@ -68,7 +68,7 @@ function Projects() {
               ghLink="https://github.com/KAyerdi/Minecraft-Clone.git"
             />
           </Col>
-          <Col md={4} className="project-card" style={{whiteSpace: "pre-line"}} >
+          <Col md={4} className="project-card"  >
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
