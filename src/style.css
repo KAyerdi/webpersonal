@@ -467,6 +467,7 @@ button:focus {
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
+  white-space: pre-line !important;
 }
 .project-card-view:hover {
   transform: scale(1.02) !important;
@@ -480,6 +481,7 @@ button:focus {
   padding-left: 25px !important;
   padding-right: 25px !important;
   height: auto !important;
+  white-space: pre-line !important;
 }
 
 .blog-card-view {
