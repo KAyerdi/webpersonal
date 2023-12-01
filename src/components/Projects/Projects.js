@@ -18,7 +18,7 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card" >
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
@@ -28,7 +28,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card" >
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
@@ -38,7 +38,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card" >
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
               isBlog={false}
@@ -47,7 +47,7 @@ function Projects() {
               ghLink="https://github.com/KAyerdi/Editor-io"
             />
           </Col>
-          <Col md={4} className="project-card" >
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
@@ -65,7 +65,7 @@ function Projects() {
               ghLink="https://github.com/KAyerdi/Minecraft-Clone.git"
             />
           </Col>
-          <Col md={4} className="project-card"  >
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
@@ -74,9 +74,28 @@ function Projects() {
               ghLink="https://github.com/KAyerdi/ChatGPT-Clone.git"
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatify}
+              isBlog={false}
+              title="Codi-Link"
+              description="This is a personal project for educational purposes, created with HTML, CSS, JavaScript. Codi.Link is a live editor. It allows you to edit your code in real time and see the result instantly."
+              ghLink="https://github.com/KAyerdi/CODI-LINK.git"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatify}
+              isBlog={false}
+              title="IMT (image-to-code)"
+              description="This is a personal project for educational purposes, created with React and Tailwind. It is a tool that has the ability to receive an image in any of the formats and convert it into code."
+              ghLink="https://github.com/KAyerdi/IMAGE-TO-CODE.git"
+            />
+          </Col>
         </Row>
       </Container>
     </Container>
   );
 }
+
 export default Projects;
