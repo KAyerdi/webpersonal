@@ -20,6 +20,15 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
         <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={bitsOfCode}
+              isBlog={false}
+              title="Lobe-Chat"
+              description="Lobe Chat - an open-source, high-performance chatbot framework that supports speech synthesis, multimodal, and extensible Function Call plugin system. Supports one-click free deployment of your private ChatGPT/LLM web application."
+              ghLink="https://github.com/KAyerdi/Bits-0f-C0de"
+            />
+          </Col>
+        <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={chatify}
               isBlog={false}
               title="Twitter Clone"
