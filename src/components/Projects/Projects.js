@@ -24,7 +24,7 @@ function Projects() {
               isBlog={false}
               title="Lobe-Chat"
               description="Lobe Chat - an open-source, high-performance chatbot framework that supports speech synthesis, multimodal, and extensible Function Call plugin system. Supports one-click free deployment of your private ChatGPT/LLM web application."
-              ghLink="https://github.com/KAyerdi/Bits-0f-C0de"
+              ghLink="https://github.com/KAyerdi/LOBE-CHAT.git"
             />
           </Col>
         <Col md={4} className="project-card">
